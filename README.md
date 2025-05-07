@@ -1,7 +1,9 @@
 # Assignment 4b: Huffman Coding
 
 **Course**: Data Structures (CSCI-UA 102, Section 7)
+//
 **Instructor**: Max Sklar
+//
 **Author**: Anushay Anjum
 
 This project implements Huffman coding in Java for compressing and decompressing text files with an explicit End-Of-Message (EOM) symbol. It includes:
