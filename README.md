@@ -6,12 +6,23 @@
 //
 **Author**: Anushay Anjum
 
+---
+
 This project implements Huffman coding in Java for compressing and decompressing text files with an explicit End-Of-Message (EOM) symbol. It includes:
 
 * **FrequencyCounter.java**: scans stdin, counts character frequencies, outputs a frequency list.
 * **HuffmanTree.java**: builds a Huffman tree from frequencies, prints a tree-spec or legend, and supports encoding/decoding bit-by-bit.
 * **HuffmanConverter.java**: uses a saved tree-spec to encode/decode/analyze text via Huffman coding.
 * **BitConverter.java**: converts between bit-strings and binary/hex/base64 formats.
+
+---
+
+## Table of Contents
+
+1. [Runbook](#runbook)
+2. [Time Spent](#time-spent)
+3. [Notes](#notes)
+4. [Resources & Acknowledgements](#resources--acknowledgements)
 
 ---
 
@@ -79,7 +90,7 @@ Approximately **6 hours**:
 
 ---
 
-## Notes & Roadblocks
+## Notes 
 
 * **Encoding mismatches** on Windows: needed `javac -encoding UTF-8` or removal of BOM/fancy hyphens.
 * **Newline handling**: originally lost line breaks—fixed by mapping `\n` to a `newline` symbol and treating newlines as spaces on encode/decode.
