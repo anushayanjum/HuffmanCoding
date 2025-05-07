@@ -1,4 +1,4 @@
-# README
+# Assignment 4b: Huffman Coding
 
 **Course**: Data Structures (CSCI-UA 102, Section 7)
 **Instructor**: Max Sklar
